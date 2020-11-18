@@ -14,6 +14,8 @@ padding: 35px 0;
   }
 
 header {
+	position: absolute;
+	display: block;
 	background-color: #8C2201;
 	width: 100%;
 	height: 120px;
@@ -24,7 +26,6 @@ header a {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	list-style: none;
 	color:#FCF4DF;
 	padding: 0 20px;
 	font-family: 'source-sans-pro', sans-serif;
@@ -33,8 +34,11 @@ header a {
 
 
 nav ul {
- position: absolute;  
 display: flex;
+position: absolute;
+list-style: none;
+padding-left: 300px;
+
 
 
 	
@@ -42,20 +46,28 @@ display: flex;
 
 .hero{
 	width:100%;
+	padding-bottom: 100px;
 }
 .heroimage {
   width: 100%;
+
  
 }
 
 .herotext{
-  font-size: 1.2em;
+	position: absolute;
+  font-size: 1.1em;
   font-family: 'source-sans-pro', sans-serif;
   color:#FCF4DF;
   background: #521401;
-	width: 70%;
-	align-content: center;
-	padding: 50px;
+	width: 780px;
+	margin-left: 80px;
+	padding: 55px;
+	margin-top: -100px;
+	text-align: center;
+	
+
+	
 	
 
   
