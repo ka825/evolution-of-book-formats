@@ -1,0 +1,156 @@
+/* CSS Document */
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+background-color:#FCF4DF;
+}
+
+.logo {
+display: block;
+width: 250px;
+padding: 35px 0;
+
+  }
+
+header {
+	background-color: #8C2201;
+	width: 100%;
+	height: 120px;
+}
+
+header a {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style: none;
+	color:#FCF4DF;
+	padding: 0 20px;
+	font-family: 'source-sans-pro', sans-serif;
+}
+
+
+nav ul {
+ position: absolute;  
+display: flex;
+float: left;
+}
+
+.hero{
+	width:100%;
+}
+.heroimage {
+  width: 100%;
+ 
+}
+
+.herotext{
+  font-size: 1.2em;
+  font-family: 'source-sans-pro', sans-serif;
+  color:#FCF4DF;
+  background: #521401;
+	width: 70%;
+	align-content: center;
+	padding: 50px;
+	
+
+  
+}
+
+.intro{
+	background-color: #8C2201;
+	width: 100%;
+	padding: 50px 0;
+}
+.introtitle {
+	text-transform: uppercase;
+	color: #FCF4DF;
+}
+
+.intro1, .intro2 {
+	color: #FCF4DF;
+}
+
+
+.intro img {
+	padding: 20px 0;
+}
+
+.physicalbackground{
+	padding: 150px 0;
+	background-image: url("../images/bookformats.png");
+	background-size: cover;
+}
+
+.physicalformats {
+	padding: 50px 0;
+
+	
+}
+
+.square {
+	background-color: #FCF4DF;
+	height: 850px;
+	padding: 30px 10px;
+}
+
+
+
+.physicaltitle, .digitaltitle{
+	color: #521401;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.physicalsub {
+	color: #521401;
+	text-transform: uppercase;
+}
+.paperback, .hardcover {
+	color: #521401;
+}
+
+
+
+
+
+
+
+.digitalformats{
+	padding: 100px 0;
+	color: #521401;
+}
+
+.ebooksimage {
+	width: 380px;
+	float: left;
+	padding-top: 25px;
+}
+
+.ebooks, .ebooktitle {
+	float: right;
+	width: 540px; 
+}
+
+
+.ebooktitle, .audiobooktitle {
+	text-align: left;
+	text-transform: uppercase;
+	color: #521401;
+}
+
+.audioimage {
+	padding-top: 18px;
+}
+
+.quote {
+	background: url("../images/oldpage.png");
+	padding: 20px 0;
+	text-transform: uppercase;
+	color: #521401;
+	text-align: center;
+	line-height: 2.3em;
+}
+
+
+
