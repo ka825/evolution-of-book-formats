@@ -172,4 +172,36 @@ padding-left: 300px;
 }
 
 
+footer {
+	background-color: #8C2201;
+}
+
+.footerlogo {
+	padding-top: 30px;
+	width: 200px;
+}
+
+.aboutus{
+	color: #FCF4DF;
+	text-transform: uppercase;
+}
+
+.aboutus-text {
+	color: #FCF4DF;
+	font-size: 0.8em;
+	width: 540px;
+}
+
+.footer-list{
+	color: #FCF4DF;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+
+
+
+
+
+
 
