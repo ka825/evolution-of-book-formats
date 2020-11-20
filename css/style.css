@@ -74,26 +74,29 @@ padding-left: 300px;
 }
 
 .intro{
-	background-color: #8C2201;
+	background-color: #FCF4DF;
 	width: 100%;
 	padding: 50px 0;
 }
 .introtitle {
 	text-transform: uppercase;
-	color: #FCF4DF;
+	color: #8C2201;
 }
 
 .intro1, .intro2 {
-	color: #FCF4DF;
+	color: #521401;;
 }
 
 
-.intro img {
-	padding: 20px 0;
+.bookone, .booktwo, .bookthree {
+	text-align: right;
+	padding-right: 20px;
+	text-transform: uppercase;
+	color: #8C2201;
 }
 
 .physicalbackground{
-	padding: 150px 0;
+	padding: 80px 0;
 	background-image: url("../images/bookformats.png");
 	background-size: cover;
 }
@@ -113,13 +116,13 @@ padding-left: 300px;
 
 
 .physicaltitle, .digitaltitle{
-	color: #521401;
+	color: #8C2201;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .physicalsub {
-	color: #521401;
+	color: #8C2201;
 	text-transform: uppercase;
 }
 .paperback, .hardcover {
@@ -152,7 +155,7 @@ padding-left: 300px;
 .ebooktitle, .audiobooktitle {
 	text-align: left;
 	text-transform: uppercase;
-	color: #521401;
+	color: #8C2201;
 }
 
 .audioimage {
@@ -163,7 +166,7 @@ padding-left: 300px;
 	background: url("../images/oldpage.png");
 	padding: 20px 0;
 	text-transform: uppercase;
-	color: #521401;
+	color: #8C2201;
 	text-align: center;
 	line-height: 2.3em;
 }
