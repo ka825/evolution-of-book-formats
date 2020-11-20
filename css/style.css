@@ -14,20 +14,24 @@ padding: 35px 0;
   }
 
 header {
-	position: absolute;
-	display: block;
-	background-color: #8C2201;
 	width: 100%;
+	background-color: #8C2201;
 	height: 120px;
 	float: right;
 }
 
-header a {
+.header-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 	color:#FCF4DF;
-	padding: 0 20px;
+	padding: 10px;
 	font-family: 'source-sans-pro', sans-serif;
 	
 }
@@ -35,9 +39,7 @@ header a {
 
 nav ul {
 display: flex;
-position: absolute;
 list-style: none;
-padding-left: 300px;
 
 
 
