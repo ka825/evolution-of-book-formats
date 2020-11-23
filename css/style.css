@@ -126,9 +126,11 @@ list-style: none;
 .physicalsub {
 	color: #8C2201;
 	text-transform: uppercase;
+	text-align: center;
 }
 .paperback, .hardcover {
 	color: #521401;
+	padding-left: 15px
 }
 
 
