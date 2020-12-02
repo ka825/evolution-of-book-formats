@@ -157,7 +157,7 @@ list-style: none;
 .ebooksimage {
 	width: 380px;
 	float: left;
-	padding-top: 27px;
+	padding-top: 26px;
 	
 }
 
@@ -195,6 +195,7 @@ list-style: none;
 
 .audiobooks, .audiobooktitle {
 padding-left: 20px;
+
 	
 }
 .ebooktitle, .audiobooktitle {
@@ -205,7 +206,8 @@ padding-left: 20px;
 
 .audioimage {
 	width: 460px;
-	float: right;
+	margin-left: 20px;
+	
 	
 
 	
@@ -218,6 +220,10 @@ padding-left: 20px;
 	color: #8C2201;
 	text-align: center;
 	line-height: 2.3em;
+}
+
+.quote:hover{
+	color: #521401;
 }
 
 
