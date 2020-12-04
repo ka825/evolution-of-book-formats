@@ -58,13 +58,13 @@ list-style: none;
 
 .herotext{
 	position: absolute;
-	text-transform: uppercase;
+	letter-spacing: 0.5px;
 	line-height: 1.4em;
   color:#FCF4DF;
   background: #521401;
 	width: 780px;
 	margin-left: 80px;
-	padding: 55px;
+	padding: 55px 80px;
 	margin-top: -100px;
 	text-align: center;
 	
@@ -89,22 +89,38 @@ list-style: none;
 	color: #521401;
 }
 
-.intro1 {
-
-	
-}
 
 .bookonetitle, .booktwotitle, .bookthreetitle {
-	text-align: right;
+	text-align: center;
 	padding-right: 20px;
 	text-transform: uppercase;
 	color: #8C2201;
-	font-style: italic;
 }
 
 .bookone, .booktwo, .bookthree {
 	padding-top: 10px;
 }
+
+.bookone {
+animation: fadeup 3s;
+}
+.booktwo{
+animation: fadeup 5s;	
+}
+
+.bookthree{
+animation: fadeup 6s;
+}
+
+@keyframes fadeup {
+	from {opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+
+}
+
 
 .physicalbackground{
 	padding: 80px 0;
