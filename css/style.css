@@ -46,15 +46,21 @@ list-style: none;
 	
 }
 
-.hero{
+.carousel{
+	padding-top: 120px;
 	width:100%;
-	padding-bottom: 100px;
 }
-.heroimage {
+.carousel-cell {
   width: 100%;
-
- 
+	height: 385px;
 }
+
+@media (max-width: 600px) {
+  .carousel-cell {
+  width: 50%;
+}
+}
+
 
 .herotext{
 	position: absolute;
@@ -65,7 +71,7 @@ list-style: none;
 	width: 780px;
 	margin-left: 80px;
 	padding: 55px 80px;
-	margin-top: -100px;
+	margin-top: -200px;
 	text-align: center;
 	
 
@@ -92,24 +98,26 @@ list-style: none;
 
 .bookonetitle, .booktwotitle, .bookthreetitle {
 	text-align: center;
-	padding-right: 20px;
 	text-transform: uppercase;
 	color: #8C2201;
 }
 
+.bookonetitle{
+	padding-top: 10px;
+}
 .bookone, .booktwo, .bookthree {
 	padding-top: 10px;
 }
 
 .bookone {
-animation: fadeup 3s;
+animation: fadeup 2s;
 }
 .booktwo{
-animation: fadeup 5s;	
+animation: fadeup 2s;	
 }
 
 .bookthree{
-animation: fadeup 6s;
+animation: fadeup 2s;
 }
 
 @keyframes fadeup {
@@ -136,7 +144,7 @@ animation: fadeup 6s;
 
 .square {
 	background-color: #FCF4DF;
-	height: 820px;
+	height: 700px;
 	padding: 30px 10px;
 }
 
