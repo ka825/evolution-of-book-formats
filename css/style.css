@@ -46,71 +46,9 @@ list-style: none;
 	
 }
 
-.slider{
 
-  height: 100vh;
-  width: 100vw;
-}
-.slide{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-}
-
-.slide-current{
-  opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.slide:first-child {
-  background-image: url("../images/heroone.png");
-  background-size: cover;
-  
-}
-
-.slide:nth-child(2){
-  background-image: url("../images/herotwo.png");
-  background-size: cover;
-}
-
-.slide:nth-child(3){
-background-image: url("../images/herothree.png");
-  background-size: cover;
-}
-
-.buttons button#prev{
-  position: absolute;
-  top: 50%;
-  left: 15px;
-}
-
-.buttons button#next{
-  position: absolute;
-  top: 50%;
-  right: 15px;
-}
-.buttons button {
-  border: 2px solid #521401;
-  background: transparent;
-  color: #521401;
-  cursor: pointer;
-  padding: 13px 15px;
-  border-radius: 50%;
-  outline: none;
+.heroimage {
+	width: 100%;
 }
 
 
@@ -125,14 +63,13 @@ background-image: url("../images/herothree.png");
 	width: 780px;
 	margin-left: 80px;
 	padding: 55px 80px;
-	margin-top: -200px;
+	margin-top: -100px;
 	text-align: center;
-	
-
-	
-	
-
   
+}
+
+.herotext:hover {
+background: #8C2201;	
 }
 
 .intro{
@@ -143,6 +80,7 @@ background-image: url("../images/herothree.png");
 .introtitle {
 	text-transform: uppercase;
 	color: #8C2201;
+	padding-top: 80px;
 }
 
 .intro1, .intro2 {
@@ -296,6 +234,11 @@ padding-left: 20px;
 	
 }
 
+.oldpage {
+	width: 100%;
+}
+
+
 .quote {
 	background: url("../images/oldpage.png");
 	padding: 20px 0;
@@ -307,7 +250,10 @@ padding-left: 20px;
 
 .quote:hover{
 	color: #521401;
+	opacity: 0.5;
 }
+
+
 
 
 footer {
