@@ -47,8 +47,7 @@ list-style: none;
 }
 
 .slider{
-  position: relative;
-  overflow: hidden;
+
   height: 100vh;
   width: 100vw;
 }
@@ -62,9 +61,20 @@ list-style: none;
   transition: opacity 0.4s ease-in-out;
 }
 
-.slide.current{
+.slide-current{
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .slide:first-child {
   background-image: url("../images/heroone.png");
@@ -219,6 +229,7 @@ animation: fadeup 2s;
 .digitalformats{
 	padding: 100px 0;
 	color: #FCF4DF;
+	background-color:#FCF4DF;
 }
 
 .digitaltitle{
